@@ -29,7 +29,6 @@
   )
 
 
-;; We begin by establishing bounds when we reach the end of the list (I did it 3 different ways because why not)
 ;; If the number is not null and the value is equal to the current number, return true
 ;; if the number is not null and the value is not equal to the current number, do leafsearch on the list starting from the next value
 ;; else we return false
@@ -85,7 +84,6 @@
 ;;                          )      
 ;;                      )  )  )
 
-;; This is a test tree a friend shared with me so I can test my searches. It works perfectly :D
 (define tree '("R" 100 999
                    (
                     ("R" 100 199
